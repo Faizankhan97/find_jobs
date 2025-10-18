@@ -11,7 +11,7 @@ function JobSection() {
         <h5>
           Featured Jobs <a href="#">See Featured Jobs</a>
         </h5>
-        <div className="d-flex flex-wrap">
+        <div className="job-grid">
           <div className="job-card">
             <h5>Promoted</h5>
             <div className="title">
@@ -178,7 +178,7 @@ function JobSection() {
         <h5>
           Recommended Jobs <a href="#">See Recommended Jobs</a>
         </h5>
-        <div className="d-flex flex-wrap gap-2">
+        <div className="job-grid">
           <div className="job-card">
             <h5>Promoted</h5>
             <div className="title">
@@ -505,7 +505,7 @@ function JobSection() {
         <h5>
           Latest Jobs <a href="#">See Featured Jobs</a>
         </h5>
-        <div className="d-flex flex-wrap">
+        <div className="job-grid">
           <div className="job-card">
             <h5>Promoted</h5>
             <div className="title">
